@@ -1,0 +1,521 @@
+/* mobile view code start */
+/* first break point ========================================= */
+@media screen and (max-width: 1245px) {
+  /* hero  Section Start */
+  .heroSection {
+    padding: 6em 6em;
+  }
+  .heroTitle {
+    font-size: 45px;
+  }
+  .heroCaption {
+    font-size: 12px;
+  }
+  .heroPara {
+    font-size: 11px;
+  }
+  .heroBtn {
+    font-size: 12px;
+  }
+  .heroPhone {
+    width: 200px;
+  }
+  .eggShape {
+    width: 450px;
+  }
+  .card-amount {
+    width: 60%;
+    left: 0;
+  }
+  .dots {
+    width: 200px;
+  }
+
+  .card1,
+  .card2 {
+    padding: 4em 2em 2em 2em;
+  }
+  .support {
+    font-size: 18px;
+  }
+
+  .blurDrop {
+    width: 450px;
+  }
+  /* hero  Section end */
+
+  /* how it works section start */
+
+  .title {
+    font-size: 36px;
+  }
+
+  .btn1,
+  .btn2 {
+    font-size: 12px;
+  }
+  .btn1.active {
+    font-size: 12px;
+  }
+
+  .getStartedButton {
+    font-size: 12px;
+  }
+
+  /* how it works section end */
+
+  /* Projects section start */
+
+  .pTitle {
+    font-size: 30px;
+  }
+
+  .projectsPara {
+    font-size: 14px;
+  }
+
+  .projectsLink {
+    font-size: 14px;
+  }
+
+  .caroImg {
+    width: 250px;
+  }
+
+  .cardHeader {
+    font-size: 14px;
+  }
+
+  .cardPara {
+    font-size: 12px;
+  }
+
+  /* Projects section end */
+
+  /* benefits section start */
+
+  .benefitsSection {
+    padding: 6em 1em;
+  }
+
+  .bCardTitle {
+    font-size: 14px;
+  }
+
+  .bCardPara {
+    font-size: 10px;
+  }
+
+  .bIcon {
+    width: 50px;
+  }
+  /* benefits section end */
+
+  /* partners section start */
+
+  .PartnersArea {
+    padding: 3em;
+  }
+
+  .howItWorksTitle {
+    margin-bottom: 100px;
+  }
+  /* partners section end */
+
+  /* token section start */
+
+  .mainToken {
+    width: 60px;
+  }
+
+  .tokenCard1Para {
+    font-size: 11px;
+    margin-top: 0;
+  }
+
+  .tokenCard1Heading {
+    font-size: 24px;
+  }
+
+  .tokenArea {
+    padding: 0;
+  }
+  /* token section end */
+}
+
+@media screen and (max-width: 1024px) {
+  /* hero section start */
+  .bottomCards {
+    width: 70%;
+  }
+  /* hero section end */
+
+  /* how it works section start */
+  .howItWorksBtns {
+    width: 40%;
+  }
+  /* how it works section end */
+
+  /* benefit section start */
+  .benefitCard2,
+  .benefitCard1,
+  .benefitCard3,
+  .benefitCard4 {
+    padding: 1em;
+  }
+  /* benefit section end */
+}
+
+@media screen and (max-width: 950px) {
+  /* hero section start */
+  .heroSection {
+    padding: 4em 4em;
+  }
+  .heroPhone {
+    width: 180px;
+  }
+  .eggShape {
+    width: 400px;
+  }
+  .card-amount {
+    width: 60%;
+    left: 0;
+  }
+  .dots {
+    width: 200px;
+  }
+  .blurDrop {
+    width: 400px;
+  }
+  /* hero section end */
+
+  /* how it works section start */
+  .howItWorksBtns {
+    width: 50%;
+  }
+
+  /* how it works section end */
+
+  /* benefits section start */
+  .bCardTitle {
+    font-size: 12px;
+  }
+
+  .bCardPara {
+    font-size: 9px;
+  }
+  /* benefits section start */
+  /* token section start */
+  .tokenSection {
+    padding: 3em;
+  }
+
+  .tokenDots {
+    width: 120px;
+  }
+  /* token section end */
+}
+
+@media screen and (max-width: 869px) {
+  /* hero section start */
+  .heroArea {
+    display: grid;
+    position: relative;
+    /* flex-flow: column; */
+    justify-items: end;
+    justify-content: center;
+    margin-bottom: 100px;
+    grid-row-gap: 100px;
+  }
+
+  .bottomCards {
+    width: 85%;
+  }
+  /* hero section end */
+
+  /* how it works section start */
+  .howItWorksArea {
+    display: grid;
+
+    grid-row-gap: 50px;
+  }
+  .getStartedButton {
+    width: 25%;
+  }
+  /* how it works section end */
+
+  /* benefits sectio  start */
+
+  .benefitsArea {
+    display: grid;
+    justify-content: center;
+  }
+  .bCardPara {
+    font-size: 14px;
+  }
+  .bCardTitle {
+    font-size: 20px;
+  }
+  /* benefits sectio  end */
+
+  /* token secion  start */
+
+  .tokenArea {
+    display: grid;
+    justify-content: center;
+
+    grid-row-gap: 100px;
+  }
+  /* token secion  end */
+
+  /* explore section start */
+  .exploreShape {
+    width: 60%;
+  }
+  .exploreArea {
+    padding: 2em;
+
+    height: 20%;
+  }
+  /* explore section end */
+}
+
+@media screen and (max-width: 765px) {
+  /* hero section start */
+  .bottomCards {
+    width: 100%;
+  }
+
+  /* hero section end */
+
+  /* how it works section start */
+  .howItWorksBtns {
+    width: 70%;
+  }
+  .btn1,
+  .btn2 {
+    font-size: 10px;
+  }
+  .btn1.active {
+    font-size: 10px;
+  }
+  /* how it works section end */
+
+  /* projects section start */
+
+  .caroImg {
+    width: 200px;
+    height: 150px;
+  }
+
+  .projectsSection {
+    padding: 4em;
+  }
+  /* projects section end */
+
+  /* partners area start */
+  .PartnersArea {
+    padding: 0em;
+    padding-bottom: 4em;
+  }
+
+  .soriana {
+    width: 130px;
+  }
+  .nec {
+    width: 100px;
+  }
+  .teamCaro {
+    align-items: center;
+  }
+
+  /* partners area end */
+}
+@media screen and (max-width: 645px) {
+  /* hero section start */
+  .card1,
+  .card2 {
+    padding: 4em 1em 2em 1em;
+  }
+  .eggShape {
+    width: 350px;
+    right: -102px;
+  }
+  .amount {
+    font-size: 12px;
+  }
+  /* hero section end */
+
+  .howItWorksBtns {
+    padding: 0.5em 0.25em;
+  }
+
+  .getStartedButton {
+    width: 40%;
+  }
+  .rightBack {
+    width: 60%;
+  }
+
+  .leftBack {
+    width: 50%;
+  }
+  .projectsLink {
+    font-size: 12px;
+  }
+
+  .good {
+    font-size: 30px;
+  }
+
+  .exploreLink {
+    margin-top: 25%;
+  }
+
+  .exploreLoansbtn {
+    font-size: 12px;
+  }
+
+  .footerSection {
+    padding: 3em;
+  }
+}
+@media screen and (max-width: 565px) {
+  .heroSection {
+    padding: 4em 2em;
+  }
+  .support {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .card1,
+  .card2 {
+    padding: 2em 1em 1em 1em;
+  }
+  .howItWorks {
+    padding: 5em 3em;
+  }
+  .secondDots {
+    width: 20%;
+  }
+}
+
+/* 2nd break point ========================================= */
+@media screen and (max-width: 463px) {
+  .bottomCards {
+    display: none;
+  }
+  .card1,
+  .card2 {
+    padding: 3em 2em 3em 2em;
+    width: 80%;
+    margin: auto;
+  }
+  .heroCard {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 432px) {
+  .heroTitle {
+    font-size: 32px;
+  }
+
+  .howItWorksTitle {
+    margin-bottom: 50px;
+  }
+  .howItWorksBtns {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .projectsSection {
+    padding: 2em;
+  }
+
+  .pTitle {
+    font-size: 24px;
+  }
+  .projectsLink {
+    font-size: 10px;
+  }
+
+  .partnersSection {
+    padding: 3em;
+    position: relative;
+  }
+
+  .exploreSection {
+    padding: 3em;
+  }
+  .eggShape2 {
+    width: 30%;
+  }
+}
+
+/* 3rd break point ========================================= */
+@media screen and (max-width: 390px) {
+  .heroPhone {
+    width: 150px;
+  }
+
+  .eggShape {
+    width: 250px;
+    right: -72px;
+  }
+
+  .dots {
+    width: 150px;
+    left: -30px;
+  }
+  .card1,
+  .card2 {
+    padding: 2em 1em 2em 1em;
+  }
+
+  .howItWorksBtns {
+    width: 100%;
+  }
+
+  .btn1,
+  .btn2 {
+    padding: 0.5em 1em;
+  }
+  .btn1.active {
+    padding: 0.5em 1em;
+  }
+
+  .getStartedButton {
+    font-size: 10px;
+    width: 50%;
+  }
+
+  .exploreLoansbtn {
+    font-size: 12px;
+    padding: 0.5em 1em;
+  }
+
+  .pTitle {
+    font-size: 18px;
+  }
+  .projectsPara {
+    font-size: 12px;
+  }
+  .projectsLink {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}
+
+/* 4th break point ========================================= */
+
+@media screen and (max-width: 300px) {
+}
+
+/* last break point ========================================= */
+@media screen and (max-width: 240px) {
+}
+
+/* mobile view code end */

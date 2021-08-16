@@ -1,0 +1,41 @@
+/* mobile view code start */
+/* first break point ========================================= */
+@media screen and (max-width: 1245px) {
+  /* footer  section start */
+  .footerCard1,
+  .footerCard2,
+  .footerCard3,
+  .footerCard4 {
+    padding: 0 !important;
+  }
+
+  .footerCardTitle {
+    font-size: 14px;
+  }
+  .c1link1 {
+    font-size: 12px;
+  }
+  .c1linklast {
+    font-size: 12px;
+  }
+
+  .footerIcons {
+    margin-top: 80px;
+  }
+  /* footer  section end */
+}
+
+@media screen and (max-width: 869px) {
+  /* footer section start */
+  .footerIcons {
+    margin-top: 50px;
+  }
+  .footerArea {
+    display: grid;
+    justify-content: center;
+    grid-row-gap: 50px;
+    text-align: center;
+  }
+
+  /* footer section end */
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="0.97498in" height="0.828437in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 974.98 828.43"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#E4A788;stroke-width:20.83;stroke-miterlimit:2.61313}
+    .str1 {stroke:#E4A788;stroke-width:20.83;stroke-linecap:round;stroke-miterlimit:2.61313}
+    .fil1 {fill:none;fill-rule:nonzero}
+    .fil2 {fill:#E4A788;fill-rule:nonzero}
+    .fil0 {fill:#FFECE2;fill-rule:nonzero;fill-opacity:0.701961}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2461201144640">
+   <path id="Ellipse_x0020_12" class="fil0" d="M583.33 291.66c0,-161.08 -130.58,-291.66 -291.66,-291.66 -161.08,0 -291.66,130.58 -291.66,291.66 0,161.08 130.58,291.66 291.66,291.66 161.08,0 291.66,-130.58 291.66,-291.66z"/>
+   <path class="fil1 str0" d="M395.83 541.66l52.08 0c5.75,0 10.41,4.67 10.41,10.42l0 93.75c-0,5.75 -4.67,10.42 -10.42,10.42l-52.08 0c-5.76,0 -10.42,-4.67 -10.42,-10.42l0 -93.75c-0,-5.75 4.66,-10.42 10.41,-10.42z"/>
+   <path class="fil1 str0" d="M531.25 468.75l52.08 0c5.75,0 10.41,4.67 10.41,10.42l0 166.66c-0,5.75 -4.67,10.42 -10.42,10.42l-52.08 0c-5.76,0 -10.42,-4.67 -10.42,-10.42l0 -166.66c-0,-5.75 4.66,-10.42 10.41,-10.42z"/>
+   <path class="fil1 str0" d="M666.66 395.83l52.08 0c5.75,0 10.41,4.67 10.41,10.42l0 239.58c-0,5.75 -4.67,10.42 -10.42,10.42l-52.08 0c-5.76,0 -10.42,-4.67 -10.42,-10.42l0 -239.58c-0,-5.75 4.66,-10.42 10.41,-10.42z"/>
+   <line id="Line_x0020_37" class="fil1 str1" x1="354.16" y1="697.91" x2="760.41" y2= "697.91" />
+   <path id="Rectangle_x0020_145" class="fil1 str0" d="M229.16 364.58c0,-28.75 23.33,-52.08 52.08,-52.08l572.92 0c28.75,0 52.08,23.33 52.08,52.08l0 375 -677.08 0 0 -375z"/>
+   <path id="Vector_x0020_6" class="fil2" d="M234.37 739.58l0 -10.42 -4.37 0 -3.02 3.02 7.39 7.4zm666.67 0l7.39 -7.4 -3.02 -3.02 -4.37 0 0 10.42zm60.42 60.73l7.39 -7.4 -7.39 7.4zm-734.48 -68.13l-60.42 60.73 14.79 14.69 60.42 -60.63 -14.79 -14.79zm-45.63 96.25l772.71 0 0 -20.83 -772.71 0 0 20.83zm787.5 -35.52l-60.42 -60.73 -14.79 14.79 60.42 60.63 14.79 -14.69zm-67.81 -63.75l-666.67 0 0 20.83 666.67 0 0 -20.83zm53.02 99.27c18.54,0 27.92,-22.4 14.79,-35.52l-14.79 14.69 0 20.83zm-787.5 -35.52c-13.13,13.13 -3.75,35.52 14.79,35.52l0 -20.83 0 0 -14.79 -14.69z"/>
+  </g>
+ </g>
+</svg>

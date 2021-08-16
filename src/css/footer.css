@@ -1,0 +1,70 @@
+.footerSection {
+  padding: 6em;
+  position: relative;
+  background-color: #e4f5eb5e;
+}
+
+.footerArea {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.egr2-logo {
+  width: 150px;
+}
+
+.footerCard1 {
+  padding: 2em;
+}
+
+.footerIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.footerCard2 {
+  padding: 2em;
+}
+
+.footerCardTitle {
+  font-size: 18px;
+  font-weight: 700;
+}
+.footerLinks {
+  display: grid;
+  margin-top: 10px;
+}
+
+.twitter {
+  color: #55bc7e;
+  border-color: #55bc7e;
+  border: solid;
+  padding: 3px;
+  border-radius: 50px;
+  border-width: 2px;
+}
+
+.twitter:hover {
+  color: #000000;
+  border-color: #000000;
+}
+
+.c1link1 {
+  margin-top: 10px;
+  color: #525252;
+}
+.c1link1:hover {
+  color: #55bc7e;
+}
+
+.c1linklast {
+  margin-top: 10px;
+  color: #55bc7e;
+  text-decoration: #55bc7e underline;
+}
+.c1linklast:hover {
+  color: #525252;
+  text-decoration: #525252 underline;
+}

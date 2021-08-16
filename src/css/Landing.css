@@ -1,0 +1,745 @@
+/* hero section start */
+
+.heroSection {
+  padding: 10em 6em;
+  position: relative;
+}
+.heroArea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.heroTxts {
+  margin-bottom: 100px;
+}
+
+.heroTitle {
+  font-weight: 700;
+  font-size: 56px;
+}
+.heroCaption {
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 40px;
+  color: #e4a788;
+}
+.heroPara {
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+  color: #373737;
+  line-height: 26px;
+}
+
+.heroButton {
+  margin-top: 50px;
+}
+.heroBtn {
+  padding: 1em 3em;
+  background: #55bc7e;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  position: relative;
+}
+.learnHover {
+  border-radius: 10px;
+  background: #61ab00;
+  box-shadow: 0px 0px 15px rgb(208, 208, 208);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  left: 0;
+  display: none;
+  animation: growInRightB 0.3s linear;
+  z-index: -1;
+}
+.heroBtn:hover {
+  color: #ffffff;
+  background: none;
+}
+.heroBtn:hover > .learnHover {
+  display: block;
+}
+@keyframes growInRightB {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.hero-images {
+  position: relative;
+  margin-right: 100px;
+}
+
+.heroPhone {
+  width: 300px;
+}
+.eggShape {
+  position: absolute;
+  right: -162px;
+  bottom: 5px;
+  z-index: -2;
+  width: 550px;
+}
+
+.dots {
+  position: absolute;
+  left: -162px;
+  top: -80px;
+  z-index: -2;
+  border-radius: 100px;
+}
+
+.x {
+  position: absolute;
+  left: -162px;
+  bottom: 300px;
+  z-index: -2;
+  border-radius: 100px;
+}
+
+.circle {
+  position: absolute;
+  left: -250px;
+  top: -40px;
+  z-index: -2;
+  border-radius: 100px;
+}
+
+.blurDrop {
+  position: absolute;
+  right: 0;
+  top: 150px;
+  z-index: -2;
+  width: 550px;
+}
+
+.card-amount {
+  display: flex;
+  justify-content: space-evenly;
+  background: #fff;
+  padding: 1em 2em;
+  border-radius: 10px;
+  align-items: center;
+  position: absolute;
+  width: 40%;
+  bottom: 0;
+  right: 50%;
+  box-shadow: 0px 0px 15px #a2a2a2;
+}
+
+.amount {
+  font-size: 18px;
+  font-weight: 800;
+  color: #e4a788;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.bottomCards {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+}
+
+.heroCard {
+  display: none;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card1,
+.card2 {
+  background: #ffff;
+  box-shadow: 0px 0px 15px #c7c7c7;
+  padding: 2em;
+  border-radius: 10px;
+  padding-top: 4em;
+  display: flex;
+  position: relative;
+}
+.card1.active::after,
+.card2.active::after {
+  content: "";
+  background: #55bc7e;
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.support {
+  margin-right: 20px;
+}
+.supportPara {
+  font-size: 12px;
+}
+
+.arrowIcon {
+  background: #d4ebdd;
+  color: #55bc7e;
+  padding: 0.2em;
+  border-radius: 50px;
+}
+.arrowIcon.active {
+  background: #55bc7e;
+  color: #fff;
+  padding: 0.2em;
+  border-radius: 50px;
+}
+/* hero section start */
+/* ============================================ */
+/* ============================================ */
+/* ============================================ */
+/* how it works section start */
+
+.howItWorks {
+  padding: 6em;
+  position: relative;
+}
+
+.titleLine {
+  width: 5%;
+  height: 5px;
+  border-radius: 10px;
+  background: #e4a788;
+  margin: auto;
+}
+
+.howItWorksTitle {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 80px;
+}
+
+.title {
+  font-size: 44px;
+  font-weight: 700;
+}
+.howItWorksBtns {
+  display: flex;
+  border: solid;
+  border-color: #55bc7e;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 1em 0.5em;
+  border-width: 2px;
+}
+
+.btn1.active {
+  background: #55bc7e;
+  padding: 1em 3em;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.btn2 {
+  font-size: 14px;
+  font-weight: 700;
+  background: #ffffff;
+  padding: 1em 3em;
+  color: #55bc7e;
+  border-radius: 5px;
+}
+.btn2:hover {
+  color: #000000;
+}
+
+.howItWorksArea {
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+  justify-content: space-around;
+}
+
+.howCard1Title,
+.howCard2Title,
+.howCard3Title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.stakeNumb {
+  font-size: 81px;
+  color: #e4a788;
+}
+.howCard1Texts,
+.howCard2Texts,
+.howCard3Texts {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.howCard1TextsP,
+.howCard2TextsP,
+.howCard3TextsP {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.getStartedButton {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 15%;
+  padding: 1em;
+  border: solid;
+  border-color: #55bc7e;
+  color: #55bc7e;
+  font-weight: 700;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 10%;
+  border-width: 2px;
+  position: relative;
+}
+.getStartedHover {
+  border: solid;
+  border-color: #61ab00;
+  border-width: 2px;
+  background: #61ab00;
+  color: #ffff;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  left: 0;
+  display: none;
+  animation: growInRight 0.3s linear;
+  z-index: -1;
+}
+@keyframes growInRight {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.getStartedButton:hover {
+  color: #ffff;
+  border-color: #61ab00;
+}
+.getStartedButton:hover > .getStartedHover {
+  display: block;
+}
+
+.leftBack {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.secondDots {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+/* how it works section end */
+/* ============================================ */
+/* ============================================ */
+/* ============================================ */
+
+/* projects Section start */
+.projectsSection {
+  padding: 6em;
+  position: relative;
+  background: #fff9f4;
+}
+
+.projectsLine {
+  width: 5%;
+  height: 5px;
+  border-radius: 10px;
+  background: #e4a788;
+}
+.projectsTitleContents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.projectTitle {
+  margin-top: 2%;
+}
+
+.pTitle {
+  font-size: 44px;
+  font-weight: 700;
+}
+.projectsPara {
+  color: #55bc7e;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 2%;
+}
+
+.projectsLink {
+  padding: 1.15em 1.5em;
+  background: #55bc7e;
+  color: #ffff;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  z-index: 4;
+}
+.projectsLinkHover {
+  border-radius: 10px;
+  background: #61ab00;
+  box-shadow: 0px 0px 15px rgb(208, 208, 208);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  left: 0;
+  display: none;
+  animation: growInRightB 0.3s linear;
+  z-index: -1;
+}
+
+.projectsLink:hover {
+  color: #ffff;
+  background: none;
+}
+.projectsLink:hover > .projectsLinkHover {
+  display: block;
+}
+
+.caroCard1 {
+  margin-top: 100px;
+}
+
+.cardA,
+.cardB,
+.cardC,
+.cardD,
+.cardE,
+.cardF,
+.cardG,
+.cardH,
+.cardI,
+.cardJ {
+  margin-bottom: 100px;
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.caroImg {
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.cardHeader {
+  font-weight: 900;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.cardPara {
+  font-weight: 600;
+}
+/* projects Section end */
+/* ============================================ */
+/* ============================================ */
+/* ============================================ */
+/* benefits section start  */
+
+.benefitsSection {
+  padding: 6em 3em;
+  position: relative;
+}
+
+.benefitsArea {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.benefitCard2,
+.benefitCard1,
+.benefitCard3,
+.benefitCard4 {
+  margin-top: 50px;
+  background: #fff;
+  box-shadow: 0px 0px 15px #dbdbdb;
+  padding-top: 4em;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.bCardTexts {
+  margin-top: 30px;
+}
+
+.bCardTitle {
+  font-size: 18px;
+  font-weight: 700;
+}
+.bCardPara {
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.rightBack {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.eggShape2 {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  z-index: -2;
+}
+/* benefits section end  */
+/* ============================================ */
+/* ============================================ */
+/* ============================================ */
+/* stories section start */
+
+.storiesSection {
+  position: relative;
+  padding: 6em 0em;
+}
+
+.storiesArea {
+  position: relative;
+}
+
+.vidDots {
+  position: absolute;
+  bottom: 10px;
+  left: 5%;
+  border-radius: 100px;
+  z-index: -1;
+}
+
+/* .iFrame {
+  display: none;
+} */
+
+/* .playButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80px;
+  cursor: pointer;
+} */
+
+/* .playButton:hover > .iFrame {
+  display: block;
+} */
+
+/* .snapShot {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+} */
+
+/* stories section end */
+/* ============================================ */
+/* ============================================ */
+/* ============================================ */
+
+/* Partners Section Start */
+
+.partnersSection {
+  padding: 6em;
+  position: relative;
+}
+
+.PartnersArea {
+  display: flex;
+  margin-top: 80px;
+  align-items: center;
+  padding: 6em;
+}
+
+.partnersCircle {
+  right: 0;
+  bottom: 10%;
+  position: absolute;
+  z-index: 2;
+}
+.patLogo {
+  text-align: center;
+}
+
+/* Partners Section end */
+/* ============================================ */
+/* ============================================ */
+/* ============================================ */
+/* tokens section  start */
+
+.tokenSection {
+  padding: 6em;
+  position: relative;
+  background: #fff9f4;
+}
+
+.tokenArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4em 2em;
+}
+
+.mainToken {
+  box-shadow: 0px 0px 15px #ecc6a6;
+  border-radius: 100px;
+  width: 100px;
+}
+
+.tokenLine {
+  width: 10%;
+  height: 5px;
+  border-radius: 10px;
+  background: #e4a788;
+  margin-top: 30px;
+}
+
+.tokenCard1texts {
+  margin-top: 20px;
+}
+
+.tokenCard1Heading {
+  font-weight: 800;
+}
+
+.tokenCard1Para {
+  line-height: 29px;
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+.tokenDots {
+  position: absolute;
+  right: 0;
+  top: -100px;
+  border-top-left-radius: 100%;
+  border-bottom-left-radius: 100%;
+}
+
+/* tokens section  end */
+/* ============================================ */
+/* ============================================ */
+/* ============================================ */
+
+/* explore section  start */
+
+.exploreSection {
+  padding: 6em;
+}
+
+.exploreArea {
+  background: #2eb67d;
+  color: #fff;
+  padding: 6em;
+  width: 100%;
+  border-radius: 20px;
+  margin: auto;
+  text-align: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.good {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.exploreLoansbtn {
+  color: #2eb67d;
+  background: #fff;
+  padding: 1em 2em;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.exploreLoansbtn:hover {
+  color: #000000;
+}
+.exploretxts {
+  position: relative;
+  z-index: 3;
+}
+
+.exploreLink {
+  margin-top: 100px;
+}
+.exploreDots {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top-right-radius: 100%;
+  width: 30%;
+}
+.exploreShape {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/* explore section  end */
+/* ============================================ */
+/* ============================================ */
+/* ============================================ */
+
+/* mobile view code start */
+/* first break point ========================================= */
+@media screen and (max-width: 1177px) {
+}
+
+@media screen and (max-width: 548px) {
+}
+
+/* 2nd break point ========================================= */
+@media screen and (max-width: 470px) {
+}
+
+@media screen and (max-width: 432px) {
+}
+
+/* 3rd break point ========================================= */
+@media screen and (max-width: 420px) {
+}
+
+@media screen and (max-width: 320px) {
+}
+
+/* 4th break point ========================================= */
+
+@media screen and (max-width: 300px) {
+}
+
+/* last break point ========================================= */
+@media screen and (max-width: 240px) {
+}
+
+/* mobile view code end */

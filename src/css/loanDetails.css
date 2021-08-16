@@ -1,0 +1,20 @@
+/* hero section start */
+
+.restaurant {
+  color: #e4a788;
+}
+
+.heroTitle2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.hero-right {
+  position: absolute;
+  right: -200px;
+  z-index: -2;
+
+  bottom: -300px;
+}
+
+/* hero section end */

@@ -1,0 +1,78 @@
+/* mobile view code start */
+/* first break point ========================================= */
+@media screen and (max-width: 1245px) {
+  /* header Section Start */
+  .headerSection {
+    padding: 1em 2em;
+  }
+  .egr-logo {
+    width: 150px;
+  }
+
+  .activeLink {
+    font-size: 13px;
+  }
+  .explore,
+  .docs,
+  .about,
+  .metrics {
+    font-size: 13px;
+  }
+
+  .getLoan {
+    font-size: 13px;
+  }
+
+  .connect {
+    font-size: 13px;
+  }
+  /* header Section end */
+}
+
+@media screen and (max-width: 1024px) {
+  .headerButtons {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .explore,
+  .docs,
+  .about,
+  .metrics {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 869px) {
+  .hamburgerOpen {
+    display: block;
+    width: 4%;
+  }
+
+  .headerLinks {
+    display: none;
+  }
+  .headerButtons {
+    display: none;
+  }
+
+  .headerSection {
+    padding: 1em 3em;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .headerSection {
+    padding: 1em 1em;
+  }
+}
+
+@media screen and (max-width: 463px) {
+  .hamburgerOpen {
+    width: 5%;
+  }
+  .egr-logo {
+    width: 100px;
+  }
+}
