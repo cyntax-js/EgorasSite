@@ -1,0 +1,143 @@
+@media screen and (max-width: 1245px) {
+  /* hero  Section Start */
+  .heroSection2 {
+    padding: 6em 6em;
+  }
+  .heroTitle2 {
+    font-size: 36px;
+  }
+
+  .hero-right {
+    width: 600px;
+    /* height: 400px; */
+  }
+  .restaurantPic {
+    width: 300px;
+    height: 300px;
+  }
+
+  /* hero  Section end */
+
+  .loanDetailsSection {
+    padding: 10em 3em;
+    position: relative;
+    background: #fafafa;
+  }
+  .LTitle {
+    font-size: 32px;
+  }
+
+  .loanDetailsCards {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* hero section start */
+  .heroSection2 {
+    padding: 6em 3em;
+  }
+
+  /* hero section end */
+
+  .loanDetailsDays {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 869px) {
+  /* hero section start */
+  .heroArea2 {
+    display: grid;
+    grid-template-columns: auto;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 100px;
+    grid-row-gap: 100px;
+  }
+
+  .hero-right {
+    right: 0;
+    width: 700px;
+  }
+  .restaurantPic {
+    width: 350px;
+    height: 350px;
+  }
+  /* hero section end */
+
+  .loanDetailsArea {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-row-gap: 150px;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  /* hero section start */
+  .hero-right {
+    right: 0;
+    width: 600px;
+  }
+  .restaurantPic {
+    width: 300px;
+    height: 300px;
+  }
+  .projectsSection2 {
+    padding: 4em;
+  }
+  /* hero section end */
+}
+@media screen and (max-width: 565px) {
+  .heroSection2 {
+    padding: 4em 2em;
+  }
+  .heroTitle2 {
+    font-size: 38px;
+  }
+  .hero-right {
+    right: 0;
+    width: 400px;
+  }
+  .restaurantPic {
+    width: 200px;
+    height: 200px;
+  }
+
+  .loanDetailsSection {
+    padding: 10em 2em;
+  }
+  .loanDetailsDays {
+    margin-right: 0px;
+  }
+  .projectsSection2 {
+    padding: 2em;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .heroTitle2 {
+    font-size: 24px;
+  }
+  .loanDetailsCards {
+    width: 300px;
+    padding: 1em 1em;
+  }
+  .ldAmount1 {
+    font-size: 18px;
+  }
+  .ldAmount2 {
+    font-size: 18px;
+  }
+  .ldTitle1 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .loanDetailsCards {
+    width: 250px;
+    padding: 1em 1em;
+  }
+}

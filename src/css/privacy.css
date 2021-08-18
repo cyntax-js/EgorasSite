@@ -1,0 +1,77 @@
+.heroSection4 {
+  padding: 6em 6em;
+  padding-bottom: 12em;
+  position: relative;
+}
+.heroArea4 {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  justify-content: space-between;
+  position: relative;
+}
+.heroTxts4 {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.heroTitle4 {
+  font-size: 58px;
+  font-weight: 700;
+}
+
+.egrEmailLink {
+  color: #55bc7e;
+  text-decoration: underline;
+}
+.egrEmailLink:hover {
+  color: #616161;
+}
+
+.hero4para {
+  font-size: 18px;
+  font-weight: 600;
+  color: #e4a788;
+}
+
+.hero-images4 {
+  position: relative;
+}
+
+.privacyTxts {
+    margin-top: 80px;
+}
+
+.privacyLine {
+  width: 10%;
+  height: 5px;
+  border-radius: 10px;
+  background: #e4a788;
+}
+
+.AboutUsPara {
+  font-size: 13px;
+  margin-top: 50px;
+}
+.PrivacyTitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: #e4a788;
+  margin-top: 30px;
+}
+.titleName {
+  color: #000;
+}
+
+.privacyBlurBg {
+  width: 25%;
+  position: absolute;
+  left: 0;
+  bottom: -100px;
+}
+.privacyrightBlurBg {
+  width: 25%;
+  position: absolute;
+  right: 0;
+  top: 300px;
+}

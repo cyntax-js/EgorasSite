@@ -1,0 +1,47 @@
+.heroSection3 {
+  padding: 6em 6em;
+  padding-bottom: 2em;
+  position: relative;
+}
+.heroArea3 {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  justify-content: space-between;
+  position: relative;
+}
+.heroTxts3 {
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.heroTitle3 {
+  font-size: 58px;
+  font-weight: 700;
+}
+
+.hero3para {
+  font-size: 18px;
+  font-weight: 600;
+  color: #e4a788;
+}
+
+.hero-images3 {
+  position: relative;
+}
+.iFrame2 {
+  border-radius: 10px;
+}
+
+.AboutLine {
+  width: 20%;
+  height: 5px;
+  border-radius: 10px;
+  background: #e4a788;
+}
+
+
+.ATitle {
+  font-size: 44px;
+  font-weight: 700;
+}

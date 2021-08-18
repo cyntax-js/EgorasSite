@@ -1,20 +1,237 @@
 /* hero section start */
 
+.heroSection2 {
+  padding: 6em 6em;
+  padding-bottom: 12em;
+  position: relative;
+}
+
+.heroArea2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.heroTxts2 {
+  margin-bottom: 100px;
+}
 .restaurant {
   color: #e4a788;
 }
 
 .heroTitle2 {
-  font-size: 40px;
+  font-size: 46px;
   font-weight: 700;
 }
 
 .hero-right {
   position: absolute;
-  right: -200px;
+  right: 0;
   z-index: -2;
+  bottom: 50px;
+}
 
-  bottom: -300px;
+.restaurantPic {
+  width: 400px;
+  border-radius: 50%;
+  height: 400px;
+  object-fit: cover;
+  background: #ffff;
+  padding: 10px;
+  box-shadow: 0px 0px 15px #d4fde5;
+}
+
+.heroSlider {
+  margin-top: 50px;
+}
+.p-texts,
+.h-texts {
+  display: flex;
+  justify-content: space-between;
+}
+.p-texts {
+  font-size: 12px;
+}
+.htxt1,
+.htxt2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.slider {
+  width: 100%;
+  height: 10px;
+  background: #efefef;
+  border-radius: 50px;
+  position: relative;
+  margin-top: 10px;
+}
+.slider::after {
+  content: "";
+  position: absolute;
+  width: 82%;
+  height: 10px;
+  background: #55bc7e;
+  border-radius: 50px;
+}
+
+.p-texts2 {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
 /* hero section end */
+
+/* loan details section start */
+.loanDetailsSection {
+  padding: 10em 6em;
+  position: relative;
+  background: #fafafa;
+}
+
+.loanDetailsDot {
+  position: absolute;
+  left: 0;
+  width: 10%;
+  bottom: -200px;
+  z-index: 1;
+}
+.loanDetailsLine {
+  width: 10%;
+  height: 5px;
+  border-radius: 10px;
+  background: #e4a788;
+}
+
+.loanDetailsTitle {
+  margin-top: 2%;
+}
+
+.LTitle {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.loanDetailsArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 5;
+}
+.loanDetailsDays {
+  margin-right: 100px;
+}
+.loanDetailsCards {
+  display: flex;
+  width: 400px;
+  box-shadow: 0px 0px 15px #d9f1dd;
+  border-radius: 10px;
+  padding: 1em 3em;
+  background: #fff;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vl {
+  height: 60px;
+  width: 2px;
+  background: #bbbbbb;
+}
+
+.ldTitle1 {
+  margin-bottom: 5px;
+}
+.ldAmount1 {
+  font-weight: 800;
+  font-size: 24px;
+  color: #55bc7e;
+}
+.ldAmount2 {
+  font-weight: 800;
+  font-size: 24px;
+  color: #e4a788;
+}
+.storyTitle {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.storyTxts {
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+.ldCardTexts1,
+.ldCardTexts2,
+.ldCardTexts3,
+.ldCardTexts4,
+.ldCardTexts5,
+.ldCardTexts6 {
+  margin-top: 60px;
+  position: relative;
+  padding-left: 80px;
+}
+
+.ldCardTexts1::before {
+  background: url(../img/ld-icon1.svg);
+}
+.ldCardTexts2::before {
+  background: url(../img/ld-icon2.svg);
+}
+
+.ldCardTexts3::before {
+  background: url(../img/ld-icon3.svg);
+}
+.ldCardTexts4::before {
+  background: url(../img/ld-icon4.svg);
+}
+.ldCardTexts5::before {
+  background: url(../img/ld-icon5.svg);
+}
+.ldCardTexts6::before {
+  background: url(../img/ld-icon6.svg);
+}
+.ldCardTexts1::before,
+.ldCardTexts2::before,
+.ldCardTexts3::before,
+.ldCardTexts4::before,
+.ldCardTexts5::before,
+.ldCardTexts6::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.payment {
+  font-weight: 800;
+}
+.loandetailsbg {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+}
+/* loan details section end */
+
+/* projects secton start */
+
+.projectsSection2 {
+  padding: 6em;
+  position: relative;
+  background: #fff;
+}
+
+.projectsBlurbg {
+  width: 20%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+/* projects secton end */

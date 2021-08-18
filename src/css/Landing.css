@@ -276,6 +276,7 @@
 }
 
 .stakeNumb {
+  font-family: Inter;
   font-size: 81px;
   color: #e4a788;
 }
@@ -427,6 +428,8 @@
 
 .caroCard1 {
   margin-top: 100px;
+  position: relative;
+  z-index: 3;
 }
 
 .cardA,
@@ -467,6 +470,7 @@
 
 .benefitsSection {
   padding: 6em 3em;
+  padding-bottom: 18em;
   position: relative;
 }
 
@@ -487,6 +491,14 @@
   padding-top: 4em;
   padding: 2em;
   border-radius: 10px;
+  transition: 0.2s linear;
+}
+.benefitCard2:hover,
+.benefitCard1:hover,
+.benefitCard3:hover,
+.benefitCard4:hover {
+  transform: scale(1.1);
+  transition: 0.2s linear;
 }
 
 .bCardTexts {
@@ -523,7 +535,6 @@
 
 .storiesSection {
   position: relative;
-  padding: 6em 0em;
 }
 
 .storiesArea {
@@ -606,6 +617,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 4em 2em;
+  position: relative;
+  z-index: 20;
 }
 
 .mainToken {
@@ -620,6 +633,10 @@
   border-radius: 10px;
   background: #e4a788;
   margin-top: 30px;
+}
+.tokenCard1 {
+  padding: 2em;
+  transition: 0.01s linear;
 }
 
 .tokenCard1texts {
@@ -639,7 +656,7 @@
 .tokenDots {
   position: absolute;
   right: 0;
-  top: -100px;
+  top: -200px;
   border-top-left-radius: 100%;
   border-bottom-left-radius: 100%;
 }

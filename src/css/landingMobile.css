@@ -222,7 +222,7 @@
     display: grid;
     position: relative;
     /* flex-flow: column; */
-    justify-items: end;
+    justify-items: center;
     justify-content: center;
     margin-bottom: 100px;
     grid-row-gap: 100px;
@@ -397,6 +397,9 @@
   }
   .secondDots {
     width: 20%;
+  }
+  .projectsSection {
+    padding: 2em;
   }
 }
 

@@ -28,6 +28,8 @@
   font-size: 14px;
   font-weight: 700;
   cursor: pointer;
+  position: relative;
+  color: #383838;
 }
 
 .explore:hover,
@@ -42,7 +44,7 @@
   font-weight: 800;
 }
 .activeLink:hover {
-  color: #806600;
+  color: #383838;
 }
 
 .headerButtons {
@@ -137,7 +139,42 @@
   }
 }
 
-
-.hamburgerOpen{
+.hamburgerOpen {
   display: none;
 }
+.ExploreLoanDropdown {
+  width: 400px;
+  position: absolute;
+  top: 40px;
+  /* display: none; */
+}
+.loanCatDropdown {
+  display: flex;
+  padding: 2em;
+  background: #ffff;
+  justify-content: space-between;
+  box-shadow: 0px 0px 15px gainsboro;
+  border-radius: 10px;
+}
+.loanCatTitle,
+.loanStatusTitle {
+  color: #55bc7e;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.loanStatli1,
+.loanCatli1 {
+  color: #525252;
+}
+.loanStatli1:hover,
+.loanCatli1:hover {
+  color: #55bc7e;
+  text-decoration: underline;
+}
+
+/* .explore:active + .ExploreLoanDropdown {
+  display: block;
+}
+.ExploreLoanDropdown:active {
+  display: block;
+} */
